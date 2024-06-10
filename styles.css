@@ -40,93 +40,43 @@ nav ul li a {
   padding: 50px 20px;
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero-content img {
-  width: 200px;
-  margin-top: 20px;
-}
-
-.mission {
+.why-volunteer {
   padding: 50px 20px;
   text-align: center;
 }
 
-.mission h2 {
+.why-volunteer h2 {
   color: #f06292;
 }
 
-.mission-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.icon-card {
-  background-color: #f0f0f0;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  width: 150px;
-}
-
-.icon-card img {
-  width: 100px;
-  height: 100px;
-}
-
-.icon-card p {
-  margin-top: 10px;
-  color: #e91e63;
-  font-weight: bold;
-}
-
-.organisation {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.organisation img {
+.why-volunteer img {
   width: 300px;
   margin-top: 20px;
 }
 
-.activities {
+.volunteers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 50px 20px;
-  text-align: center;
 }
 
-.slideshow-container {
-  position: relative;
-  max-width: 100%;
-  margin: auto;
+.volunteer-card {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   overflow: hidden;
-}
-
-.slide {
-  display: none;
+  margin: 20px;
   text-align: center;
+  width: 300px;
+  padding: 20px;
 }
 
-.slide img {
-  width: 100%;
-  height: auto;
-}
-
-.caption {
-  color: #000;
-  font-size: 18px;
-  padding: 10px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.7);
+.volunteer-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -162,9 +112,5 @@ footer {
 .footer-bottom {
   text-align: center;
   padding: 10px 20px;
-  background-color: #0d47a1;
-}
-
-.footer-bottom p {
-  margin: 0;
+  background-color: #111;
 }

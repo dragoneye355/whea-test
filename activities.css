@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to right, #c20054, #282970);
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.projects h1 {
+  text-align: center;
+  color: #333;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.project:nth-child(odd) .project-text {
+  order: 2;
+}
+
+.project-image {
+  flex: 1;
+  padding: 20px;
+  margin-left: -40px; /* Negative margin to move image left */
+  margin-right: -40px; /* Negative margin to move image right */
+}
+
+.project-image img {
+  width: 110%; /* Increase width to account for negative margin */
+  transform: rotate(-5deg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image.right img {
+  transform: rotate(5deg);
+}
+
+.project-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.project-text h2 {
+  color: #e23e37;
+}
+
+.project-text p {
+  color: #555;
+}
+
+footer {
+  background: #232a47;
+  color: white;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content h3 {
+  margin-top: 0;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}

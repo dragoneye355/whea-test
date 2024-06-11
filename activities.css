@@ -62,8 +62,8 @@ nav ul li a {
 .project-image {
   flex: 1;
   padding: 20px;
-  margin-left: -40px; /* Negative margin to move image left */
-  margin-right: -40px; /* Negative margin to move image right */
+  margin-left: 20px; /* Negative margin to move image left */
+  margin-right: 40px; /* Negative margin to move image right */
 }
 
 .project-image img {

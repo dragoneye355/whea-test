@@ -111,3 +111,53 @@
     font-size: 12px;
   }
 }
+footer {
+  background: #162447;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer .footer-content div {
+  flex: 1;
+  margin: 10px;
+}
+
+footer .footer-content h3 {
+  border-bottom: 2px solid #dd1b59;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+footer .footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-content ul li {
+  margin: 5px 0;
+}
+
+footer .footer-content ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-content ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-bottom {
+  margin-top: 20px;
+}
+
+footer .footer-bottom p {
+  margin: 0;
+}

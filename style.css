@@ -6,11 +6,12 @@ body {
 }
 
 header {
-  background-color: #f0f0f0;
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(to right, #dd1b59, #1a73e8);
+  padding: 10px 20px;
+  color: white;
 }
 
 .logo img {
@@ -73,11 +74,12 @@ nav ul li a {
   margin: 10px;
   text-align: center;
   width: 150px;
+  overflow: hidden; /* Ensure the image does not overflow */
 }
 
 .icon-card img {
-  width: 100px;
-  height: 100px;
+  width: 100%; /* Make sure the image fits the card */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .icon-card p {

@@ -4,13 +4,13 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 header {
-  background-color: #f0f0f0;
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(to right, #dd1b59, #1a73e8);
+  padding: 10px 20px;
+  color: white;
 }
 
 .logo img {
